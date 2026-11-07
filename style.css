@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(41, 38, 77);
+    flex-direction: column;
+    border-radius: 5px;
+}
+.ventas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width:100%;
+    min-height: 88vh;
+    background-color: azure;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.tarjeta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 160px;
+    height: 210px;
+    background-color: rgb(26, 9, 104);
+    border-radius: 5px;
+    margin: 2px 2px 1px 2px;
+    color: aliceblue;
+    gap: 1px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(8, 1, 58);
+    color: aliceblue;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
+img{
+    min-width:90px;
+    min-height: 90px;
+}
+.botones{
+    margin: 5px 0;
+}
+button{
+    background-color: rgb(0, 0, 34);
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+.cancelar{
+    background-color: rgb(146, 1, 1);
+}
+.estado{
+    text-align: center;
+    background-color: red;
+    color: aliceblue;
+    margin-bottom: 3px;
+}
+.megusta{
+    border: none;
+    background-color: rgb(26, 9, 104);
+    font-size: 30px;
+    margin: 0;
+}
+.titulo_meguata{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    height: 40px;
+    margin: 0;
+
+}
+.btn_megusta{
+    border: none;
+    margin: 0;
+    padding: 0;
+    border-color:rgb(26, 9, 104);
+    font-size: 20px; ;
+}
+.favoritos{
+   color: red;
+}
+img{
+    border-radius: 5px;
+}
